@@ -1,0 +1,4 @@
+#!/bin/sh
+
+make ./tools/FAKE/tools/FAKE.exe &&
+mono ./tools/FAKE/tools/FAKE.exe "$@"
